@@ -1,0 +1,8 @@
+{
+  "name": "grill-me",
+  "description": "Marketplace for the grill-me skill",
+  "owner": { "name": "Isaiah Brooks" },
+  "plugins": [
+    { "name": "grill-me", "description": "Question-first intake for significant vague tasks: recon, rounds of defaulted questions, a confirmed brief, then work", "version": "0.1.0", "source": "./", "author": { "name": "Isaiah Brooks" } }
+  ]
+}

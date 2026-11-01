@@ -1,0 +1,10 @@
+{
+  "name": "grill-me",
+  "description": "Interrogates the user before any work on a significant vague task: recon first, rounds of 3-5 questions with defaults, a played-back brief, and a confirmation gate before building starts.",
+  "version": "0.1.0",
+  "author": { "name": "Isaiah Brooks" },
+  "homepage": "https://github.com/zayvillion-dot/grill-me",
+  "repository": "https://github.com/zayvillion-dot/grill-me",
+  "license": "MIT",
+  "keywords": ["skills", "requirements", "planning", "clarifying-questions", "workflow"]
+}
