@@ -1,5 +1,7 @@
 # Grill Me
 
+![preview](assets/social-preview.png)
+
 A Claude Code skill that makes the agent interrogate you before it starts a significant, vague task. Wrong assumptions on a new build, offer, page, or client are expensive, and one long questionnaire answered once does not fix that. This skill runs a loop: read the workspace first, ask 3-5 questions per round (each with a suggested default), pin vague answers to something observable, play back a brief, and begin work only after you confirm it.
 
 **Use it when** you say "grill me", "interrogate me", or "ask me questions first", invoke `/grill-me`, or hand over a big vague task: new build, new offer, new page, new client, big change.
