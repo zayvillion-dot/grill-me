@@ -7,24 +7,24 @@ description: Use when the user says "grill me", "interrogate me", "ask me questi
 
 ## Overview
 
-Interrogation BEFORE any work. Surface what the user knows but has not said. No drafting, building, or file edits until the user confirms a brief.
+Interrogation BEFORE any work. Surface what the user has not said, and what they have not thought about yet. No drafting, building, or file edits until the user confirms a brief.
 
 A grill is a loop, not a questionnaire.
 
 ## The contract: four stages, in order
 
-1. **Recon.** Read what the task touches: files, docs, prior decisions. Never ask what the workspace already answers.
-2. **Rounds.** 3-5 questions per round, most load-bearing first. Number them and give each a suggested default so the user can answer fast ("2: default is fine"); use a structured question tool if you have one. Pin vague answers ("make it pop") to something observable. Repeat until a round surfaces no new load-bearing unknown; typically 2-4 rounds. Seed questions: `references/question-bank.md`.
+1. **Recon.** Read what the task touches: files, docs, prior decisions. Never ask what the workspace already answers. Recon turns generic questions into pointed ones: the repo already has a pricing page, so ask whether the new page replaces it, not whether pricing exists.
+2. **Rounds.** 3-5 questions per round, ordered by cost if wrong. Prefer a structured question tool (≤4 per batch, concrete options plus a recommended default); otherwise number the questions and give each a default. Examine every answer for follow-ups. Pin vague answers ("make it pop") to something observable. Repeat until a round surfaces no new load-bearing unknown; minimum two rounds, typically 2-4. Seed questions: `references/question-bank.md`.
 3. **Brief.** Play back: Goal (one sentence), Non-goals, Decisions, Assumptions (defaults accepted), Open items (parked, non-blocking), Plan (first steps), Done means (observable).
 4. **Gate.** Ask "anything wrong or missing?" Begin work only after explicit confirmation. Partial answers never justify a "first draft".
 
-Record answers with `references/answers-template.md`; append to the project's progress log if one exists.
+After the gate passes, record answers with `references/answers-template.md`; append to the project's progress log if one exists.
 
 ## Territory (skip what recon answered)
 
 | Area | Question behind the question |
 |---|---|
-| Outcome | What does done look like? The one action or metric? |
+| Outcome | What does done look like, observably? The one action or metric? |
 | Audience | Who exactly is it for? |
 | Scope | What is explicitly out? |
 | Constraints | Budget, deadline, platforms, dependencies |
@@ -34,8 +34,8 @@ Record answers with `references/answers-template.md`; append to the project's pr
 
 ## Red flags
 
-- Starting to build with an unasked expensive assumption
-- Asking 15 questions at once (8+ is already too many)
+- Started drafting or building "with what we have so far"
+- Asked 8+ questions in one message
 - Questions with no default offered
 - Asking what the repo already answers
 - Going from answers to work with no played-back brief

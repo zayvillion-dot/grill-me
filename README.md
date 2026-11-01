@@ -25,7 +25,7 @@ Copy `skills/grill-me/` into `~/.claude/skills/`.
 >
 > **Claude** (after reading the repo):
 > 1. Who lands here and from where? (default: first-time visitor from search)
-> 2. What is the one action to drive? (default: a single "request a quote" button)
+> 2. What is the one action to drive? (default: a single call to action)
 > 3. Replace the current services page or stand alone? (default: stand alone)
 >
 > **You:** 1 default, 2 default, 3 replace it.
